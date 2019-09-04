@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044CEB5622EE72A500CAC2FC /* TEST_RESIZE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB5522EE72A500CAC2FC /* TEST_RESIZE.cpp */; };
+		04C0D07E231FD7220003F54A /* TEST_SOA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04C0D07D231FD7220003F54A /* TEST_SOA.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		044CEB5222EE72A500CAC2FC /* FuncTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FuncTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CEB5522EE72A500CAC2FC /* TEST_RESIZE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TEST_RESIZE.cpp; sourceTree = "<group>"; };
 		044CEB5D22EE72EA00CAC2FC /* timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = timer.hpp; sourceTree = "<group>"; };
+		04C0D07D231FD7220003F54A /* TEST_SOA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TEST_SOA.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				044CEB5D22EE72EA00CAC2FC /* timer.hpp */,
 				044CEB5522EE72A500CAC2FC /* TEST_RESIZE.cpp */,
+				04C0D07D231FD7220003F54A /* TEST_SOA.cpp */,
 			);
 			name = FuncTest;
 			path = ../src;
@@ -122,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044CEB5622EE72A500CAC2FC /* TEST_RESIZE.cpp in Sources */,
+				04C0D07E231FD7220003F54A /* TEST_SOA.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
