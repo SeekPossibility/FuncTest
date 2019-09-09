@@ -10,31 +10,32 @@
 #include <vector>
 #include "timer.hpp"
 
+const int n = 100000;
 
 struct Vars {
     double rho;
+    double u;
     double P;
 };
-Vars AOS[100000];
+Vars AOS[n];
 
 struct VarsVector {
-    double rho[100000];
-    double p[100000];
+    double rho[n];
+    double u[n];
+    double p[n];
 };
 VarsVector SOA;
 
 int main(int argc, const char * argv[]) {
     Timer timer;
-    
-    
     timer.reset();
-    for (int i = 0; i < 100000; ++i) {
+    for (int i = 0; i < n; ++i) {
         AOS[i].rho++;
     }
     std::cout<<"Test for AOS: "<<timer.durationInSeconds()<<std::endl;
     
     timer.reset();
-    for (int i = 0; i < 100000; ++i) {
+    for (int i = 0; i < n; ++i) {
         SOA.rho[i]++;
     }
     std::cout<<"Test for SOA: "<<timer.durationInSeconds()<<std::endl;
